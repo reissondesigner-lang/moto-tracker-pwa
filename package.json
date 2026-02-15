@@ -6,7 +6,7 @@
   "scripts": {
      "dev": "vite",
   "build": "vite build",
-  "deploy": "npm run build && gh-pages -d dist"
+  "deploy": "npm run build && gh-pages -d dist",
     "start": "NODE_ENV=production node dist/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
