@@ -1,0 +1,62 @@
+{
+  "name": "Moto Tracker PWA",
+  "short_name": "Moto Tracker",
+  "description": "Rastreador PWA para moto: controle de abastecimento, troca de óleo e estatísticas de consumo",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#1e3a8a",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231e3a8a' width='192' height='192'/><text x='50%' y='50%' font-size='100' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='system-ui'>🏍</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%231e3a8a' width='512' height='512'/><text x='50%' y='50%' font-size='300' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='system-ui'>🏍</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23f0f9ff' width='540' height='720'/><text x='50%' y='50%' font-size='100' fill='%231e3a8a' text-anchor='middle' dominant-baseline='middle' font-family='system-ui'>Moto Tracker</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Registrar Abastecimento",
+      "short_name": "Abastecimento",
+      "description": "Registre um novo abastecimento",
+      "url": "/?action=refuel",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%2306b6d4' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='50' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='system-ui'>⛽</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Registrar Troca de Óleo",
+      "short_name": "Troca de Óleo",
+      "description": "Registre uma troca de óleo",
+      "url": "/?action=oil",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%23dc2626' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='50' fill='white' text-anchor='middle' dominant-baseline='middle' font-family='system-ui'>🔧</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
